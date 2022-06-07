@@ -1,0 +1,7 @@
+[pytest]
+asyncio_mode=auto
+env =
+    D:DB_URL=
+    D:EXTERNAL_DB_URL=
+
+    TZ=Europe/Moscow
