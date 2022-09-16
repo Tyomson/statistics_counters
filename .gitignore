@@ -3,3 +3,4 @@
 *.env
 /mysql/
 /.pytest_cashe/
+@doedeer
