@@ -26,7 +26,7 @@ MYSQL_DATABASE=имя базы данных
 
 Переходим в рабочую директорию и собираем контейнеры
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 Просмотр логов:  

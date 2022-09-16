@@ -9,7 +9,7 @@ from config import CONFIG, ErrorDetails
 tags_metadata = [
     {
         'name': 'statistics',
-        'description': 'Работа со справочником статистики'
+        'description': 'Working with the statistics directory'
     },
 ]
 
@@ -21,7 +21,7 @@ sentry_sdk.init(
 
 app = FastAPI(
     title='Statistics Counters',
-    description='АПИ для работы со справочником статистики!',
+    description='API for working with the statistics directory!',
     version='0.0.1',
     openapi_tags=tags_metadata,
 )
