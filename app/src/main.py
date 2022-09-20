@@ -25,7 +25,6 @@ app = FastAPI(
     version='0.0.1',
     openapi_tags=tags_metadata,
 )
-# base.Base.metadata.create_all(bind=base.engine)
 
 app.include_router(statistics.router.router)
 

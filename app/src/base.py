@@ -14,7 +14,6 @@ SQLALCHEMY_DATABASE_URL = CONFIG['db_url']
 
 engine = create_async_engine(
     SQLALCHEMY_DATABASE_URL,
-    #connect_args={"check_same_thread": True}
 )
 SessionLocal = sessionmaker(
     class_=AsyncSession,
