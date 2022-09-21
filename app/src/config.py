@@ -10,7 +10,6 @@ class ErrorDetails:
         NOT_FOUND: 404,
     }
 
-
 STAGE = {
     'db_url': os.environ['DB_URL'],
     'sentry_url': os.environ['SENTRY_URL'],

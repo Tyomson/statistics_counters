@@ -7,7 +7,7 @@ from config import ErrorDetails
 
 def parse_date(date_str: str) -> date:
     try:
-        return datetime.strptime(date_str, '%Y-%d-%m').date()
+        return datetime.strptime(date_str, '%Y-%m-%d').date()
     except ValueError:
         raise HTTPException(status_code=400, detail=ErrorDetails.INVALID_DATE_ARGUMENT)
 
